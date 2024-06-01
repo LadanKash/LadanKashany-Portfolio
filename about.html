@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-L/tZoKoYBM8v8GRz+5Yw1Hp56OGjL99Hwlxu8vXZ8jQvIkgix9XJFcf8Uq1KB+2y" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://kit.fontawesome.com/4b63fc8b98.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <nav>
+    <img src="" class="logo">
+    <ul id="sidemenu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+    </ul>
+    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+  </nav>
+
+  <br><br>
+  <!-- -------about---------- -->
+  <div id="about" style="background-color: #ece9e9;">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="Images/picladan.jpg" alt="Profile">
+        </div>
+        <div class="about-col-2">
+
+          <h1 class="sub-title" style="
+                    text-align: left; margin-bottom: 20px; margin-top: 16px;">About Me</h1>
+          <br>
+          <p style="width: 80%; font-size: 18px;line-height: 1.8rem;">I am a Web designer and Front-End developer based in Canada. 
+            My journey into the world of web development began with a curiosity to bridge the gap between form and function. 
+            I thrive on transforming ideas into interactive and visually appealing websites that not only meet but exceed user expectations.<br><br>
+            Fascinated by technology and driven by a desire to create meaningful solutions, I ventured into the domain of
+            web development. Programming has proven to be the perfect intersection of my interests and abilities. My primary 
+            objective is to craft effective and user-friendly interfaces that enhance the overall experience. <br><br>
+            I enjoy the challenge of troubleshooting and finding innovative solutions to complex issues. Driven by goals, motivation, and a lifelong 
+            commitment to learning, I continuously seek opportunities to make a positive impact and refine my skills.</p><br>
+
+          <div class="tab-titles">
+            <p class="tab-links" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience_tab')">Experience</p>
+            <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+          </div>
+          <!-- -----skills------- -->
+          <div class="tab-contents" id="skills">
+            <ul>
+              <li><span>Web Design </span></li><br>
+              <li><span>Web Developer </span></li><br>
+              <li><span>UX/ UI Designer </span> Designing web/App Interfaces</li><br>
+              <li><span>WordPress </span><br></li><br>
+              <li><span>React.js </span><br></li><br>
+              <li><span>Figma </span><br></li><br>
+
+            </ul>
+          </div>
+          <!-- -----------experience--------- -->
+          <div class="tab-contents" id="experience_tab">
+            <div class="experience">
+              <div class="column">
+                <p class="label">Role:</p>
+                <br>
+                <p class="content"><b>UX/UI Desginer</b></p>
+              </div>
+              <div class="column">
+                <p class="label">Responsibilities:</p>
+                <br>
+                <p class="content">Collaborated with a multidisciplinary team comprising designers, developers, and
+                  product managers to conceptualize and deliver the Co-Parents application.</p><br>
+                <p>• Conduct user research and competitor analysis to inform design decisions.<br>
+                  • Develop user stories, personas, and storyboards based on research and data.<br>
+                  • Create Wireframes, prototypes, and mock-ups that align with user-centered design.<br>
+                  • Regularly communicated design concepts and updates to stakeholders, incorporating
+                  feedback to refine and enhance the final product.
+                </p>
+              </div>
+              <div class="column">
+                <p class="label">Date:</p>
+                <br>
+                <p class="content">January 2023- Present</p>
+              </div>
+            </div>
+          </div>
+          <!-- -------------education----------- -->
+          <div class="tab-contents active-tab" id="education">
+            <ul>
+              <li><span>Web design and development Certificate</span><br>CDI College</li>
+              <li> 2022 - 2024</li><br>
+              <li><span>UX Design Professional Certificate</span><br>Google</li>
+              <li>2022 - 2022</li><br>
+              <li><span>UX/UI Design Certificate</span><br>UX-Land School</li>
+              <li>2021 - 2022</li><br>
+              <li><span>Complete Web Development Certificate</span><br>UDMY Bootcamp</li>
+              <li>2020- 2020 </li><br>
+              <li><span>Education technique AEC Certificate</span><br>College Edouard Montpetit </li>
+              <li>2016- 2017 </li><br>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Habits and Interested-->
+  <div class="container">
+    <h1 class="sub-title" style="margin-top:24px ;">Habits and Interests</h1>
+    <ul class="arrow-list">
+
+      <li>playing sports (Workout every day, Swimming, Skiing, and Yoga)</li>
+      <br>
+      <li>Photography</li>
+      <br>
+      <li>Healthy lifestyle</li>
+      <br>
+      <li>Traveling</li>
+      <br>
+      <li>Cooking</li>
+      <br>
+      <li>Gathering with my friends</li>
+      <br>
+      <li>Learning new skills</li>
+      <br>
+      <li>Stay updated and Make use of feedback</li>
+      <br>
+      <li>Collaboration</li>
+    </ul>
+  </div>
+  <br><br>
+  <div class="container" style="text-align: center;">
+    <h3 style="font-size: 1.6em;"><b>Contact me<b></h3>
+    <br><br>
+    <p>Send me an email at ladan.kashany@gmail.com or find me at</p>
+    <br>
+
+    <a class="btn btn2" href="http://www.linkedin.com/in/ladan-kash" style="color: #fff;">LinkedIn</a>
+
+  </div>
+
+  </div>
+
+
+  <div class="copyright">
+    <p>Developed by ladan-kash <i class="fa-solid fa-heart"></i></p>
+  </div>
+  </div>
+
+  <script src="script.js"></script>
+
+
+</body>
+
+</html>
